@@ -112,8 +112,36 @@ font-size: 24px;
 font-weight: 500;
 
 }
+.offer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.offer-first{
 
+}
+.offer-second{
+  
+border-radius: 463px;
+border: 15px solid #F00;
+padding: 20px;
+margin-right: 25px;
 
+}
+.portfolio-content h2{
+  color: #070211;
+ font-size: 45px;
+font-weight: 900;
+
+}
+.portfolio-img{
+  margin-top: 20px;
+}
+
+.portfolio-img img:hover{
+  border: 5px solid blue;
+
+}
 .newsletter{
   margin-top: 50px;
   padding: 80px;
