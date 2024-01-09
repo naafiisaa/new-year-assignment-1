@@ -53,7 +53,7 @@ h3 {
   font-weight: 500;
   line-height: normal;
 }
-.catagory {
+.category {
   color: #070211;
   text-align: center;
 
@@ -117,9 +117,7 @@ font-weight: 500;
   justify-content: space-between;
   margin-top: 80px;
 }
-.offer-first{
 
-}
 .offer-second{
   
 border-radius: 463px;
@@ -159,25 +157,35 @@ form{
   border: 2px solid white;
   flex-shrink: 1;
   height: 72px;
-  border-radius:50px; 
+  border-radius: 50px 50px 50px 50px; 
   width: 210px;
   display: flex;
   justify-content: space-between;
+
 }
 .subscribe-btn{
   border-radius: 0px 50px 50px 0px;
-background: #F00;width: 210px;
+  padding: 25px;
+  border: none;
+background: #F00;
+width: 210px;
 height: 72px;
+color: #fff;
 
 }
 input{
   border: none;
+  border-radius: 50px 0px 0px 50px;
+  padding: 25px;
+  color:rgba(7, 2, 17, 0.30);
+
+  
+  
 }
 
 footer{
   background:#070211;
   color: #fff;
-  
   padding: 200px;
   margin-top: 30px;
   font-size: 20px;
