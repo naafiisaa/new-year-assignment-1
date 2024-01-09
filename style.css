@@ -1,6 +1,6 @@
-body {
+header, main {
   font-family: "Merriweather", serif;
-  max-width: 1400px;
+  width: 1400px;
   margin: 0 auto;
 }
 
@@ -53,10 +53,10 @@ h3 {
   font-weight: 500;
   line-height: normal;
 }
-h2 {
+.catagory {
   color: #070211;
   text-align: center;
-  font-family: Inter;
+
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -65,4 +65,120 @@ h2 {
 .discount-img{
     margin-left: 250px;
     
+}
+.party{
+  background-image: url(img/Vectorrr.png);
+    background-repeat: no-repeat;
+  
+   
+  
+  
+}
+.party-section{
+    margin-top: 60px;
+    margin-right: 80px;
+    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    color: #fff;
+}
+.party-section img{
+    width: 320px;
+    height: 460px;
+    margin-right: 50px;
+   
+}
+.left-party h2{
+    font-size: 60px;
+} 
+.btn a{
+  text-decoration: none;
+  color: #fff;
+}
+.btn
+{
+  color:white;
+  background: transparent;
+  border: none;
+  margin-top: 20px;
+
+}
+h6{
+  color: #F00;
+font-size: 24px;
+font-weight: 500;
+
+}
+
+
+.newsletter{
+  margin-top: 50px;
+  padding: 80px;
+  border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.newsletter-content img{
+ margin-left: 80px;
+}
+form{
+  border: 2px solid white;
+  flex-shrink: 1;
+  height: 72px;
+  border-radius:50px; 
+  width: 210px;
+  display: flex;
+  justify-content: space-between;
+}
+.subscribe-btn{
+  border-radius: 0px 50px 50px 0px;
+background: #F00;width: 210px;
+height: 72px;
+
+}
+input{
+  border: none;
+}
+
+footer{
+  background:#070211;
+  color: #fff;
+  
+  padding: 200px;
+  margin-top: 30px;
+  font-size: 20px;
+  
+}
+.first-half{
+  
+  display: flex;
+  justify-content: space-between;
+}
+.call, .website {
+  display:flex;
+
+  
+  
+  
+}
+.footer-p{
+  margin-left: 10px;
+}
+hr{
+  background-color: rgba(255, 255, 255, 0.192);
+}
+.second-half
+{
+  text-align: center;
+}
+.third-half{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
 }
